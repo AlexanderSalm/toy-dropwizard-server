@@ -27,7 +27,7 @@ jobs:
           ./gradlew test
 
   run-system-tests:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build-and-test
 
     steps:
